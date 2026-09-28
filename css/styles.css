@@ -88,30 +88,17 @@ h2{
 }
 
 /* color palette made with hsl(101 48% 37%) */
-.l37 {
-    background-color: hsl(101 48% 37%);
-}
-.l57 {
-    background-color: hsl(101 48% 57%);
-}
-.l77 {
-    background-color: hsl(101 48% 77%);
-}
-.l97 {
-    background-color: hsl(101 48% 97%);
+:root {
+    --color-37: hsl(101 48% 37%);
+    --color-57: hsl(101 48% 57%);
+    --color-77: hsl(101 48% 77%);
+    --color-97: hsl(101 48% 97%);
+    /* color palette made with oklh 4d8b31 */
+    /* oklch is a much more natural progression than hsl; each step looks more evenly spaced and visually pleasing */
+    --color-o90: oklch(0.9749 0.1393 137.32);
+    --color-o70: oklch(0.7749 0.1393 137.32);
+    --color-o50: oklch(0.5749 0.1393 137.32);
+    --color-o30: oklch(0.3749 0.1393 137.32);
 }
 
-/* color palette made with oklh 4d8b31 */
-/* oklch is a much more natural progression than hsl; each step looks more evenly spaced and visually pleasing */
-.o90 {
-    background-color: oklch(0.9749 0.1393 137.32);
-}
-.o70 {
-    background-color: oklch(0.7749 0.1393 137.32);
-}
-.o50 {
-    background-color: oklch(0.5749 0.1393 137.32);
-}
-.o30 {
-    background-color: oklch(0.3749 0.1393 137.32);
-}
+
