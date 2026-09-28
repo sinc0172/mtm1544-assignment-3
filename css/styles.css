@@ -1,12 +1,21 @@
-/* MTM1544 Week 2 */
+/* MTM1544 Week 3 */
 
 /* setting the box-sizing property to border-box for all elements */
 * {
     box-sizing: border-box;
 }
 
-/* paragraph classes: intro, lakeside, ridge, summit, before-you-go */
+/* setting the font family for the entire page */
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* paragraph classes: intro, ridge, summit-top, summit-bottom */
 /* box model properties */
+p{
+    line-height: 150%;
+}
+
 .ridge {
     color: #fff;
     background-color: #473c2c;
@@ -23,10 +32,12 @@
 
 #summit-top{
     margin-bottom: 20px;
+    line-height: 150%;
 }
 
 #summit-bottom{
     margin-top: 40px;
+    line-height: 150%;
 }
 
 #mountain-image{
