@@ -87,13 +87,14 @@ h2{
     text-wrap: balance;
 }
 
+/* green color palette #4d8b31 */
 /* color palette made with hsl(101 48% 37%) */
 :root {
     --color-37: hsl(101 48% 37%);
     --color-57: hsl(101 48% 57%);
     --color-77: hsl(101 48% 77%);
     --color-97: hsl(101 48% 97%);
-    /* color palette made with oklh 4d8b31 */
+    /* color palette made with oklh */
     /* oklch is a much more natural progression than hsl; each step looks more evenly spaced and visually pleasing */
     --color-o90: oklch(0.9749 0.1393 137.32);
     --color-o70: oklch(0.7749 0.1393 137.32);
@@ -102,15 +103,20 @@ h2{
     /* site color palette */
     --main-color: #FF8427;
     --secondary-color: #FFC800;
+    --accent-color: #4d8b31;
     --dark: #1E212B;
 }
 
 /* interactive color changes */
 .button {
-  background-color: #2563eb;
+  color: #fff;
+  background-color: var(--color-o30);
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
 }
 .button:hover {
-  background-color: color-mix(in oklch, #2563eb 85%, black);
+  background-color: color-mix(in oklch, var(--color-o30) 85%, black);
+  border: 2px solid var(--color-o90);
+  color: var(--color-o90);
 }
-
-
