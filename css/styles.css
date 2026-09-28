@@ -5,16 +5,8 @@
     box-sizing: border-box;
 }
 
-/* setting the font family for the entire page */
-body {
-    font-family:'Courier New', Courier, monospace;
-}
-
 /* paragraph classes: intro, ridge, summit-top, summit-bottom */
 /* box model properties */
-p{
-    line-height: 150%;
-}
 
 .ridge {
     color: #fff;
@@ -53,7 +45,6 @@ body{
 /* changing paragraph text color to white, making the line height 2px tall */
 p{
     color:#303030; 
-    line-height:2px;
 }
 /* changing all headings text color to dark brown */
 h1, h2{
@@ -72,4 +63,12 @@ h1, h2{
 /* changing h1 text color to green */
 h1{
     color:#91A550
+}
+
+/* colour & typography */
+/* setting the font family for the entire page */
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.125rem;
+    line-height: 1.6;
 }
