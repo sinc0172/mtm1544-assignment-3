@@ -1,0 +1,64 @@
+/* MTM1544 Week 2 */
+
+/* setting the box-sizing property to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* paragraph classes: intro, lakeside, ridge, summit, before-you-go */
+/* box model properties */
+.ridge {
+    color: #fff;
+    background-color: #473c2c;
+    border: 4px solid goldenrod;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+    line-height: 150%;
+}
+
+#summit-top{
+    margin-bottom: 20px;
+}
+
+#summit-bottom{
+    margin-top: 40px;
+}
+
+#mountain-image{
+    aspect-ratio: 16/9;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* changing the background colour to eggshell */
+body{
+    background-color: #EEE2DF
+}
+/* changing paragraph text color to white, making the line height 2px tall */
+p{
+    color:#303030; 
+    line-height:2px;
+}
+/* changing all headings text color to dark brown */
+h1, h2{
+    color: #493B2A
+}
+/* changing the text color of the intro paragraph and the font size */
+.intro{
+    color: #593F62; 
+    font-size:16px;
+}
+/* changing the text color of the summit climb heading and the font size */
+#summit{
+    color:goldenrod; 
+    font-size:24px;
+}
+/* changing h1 text color to green */
+h1{
+    color:#91A550
+}
