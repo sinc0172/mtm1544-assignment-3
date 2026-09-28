@@ -99,6 +99,18 @@ h2{
     --color-o70: oklch(0.7749 0.1393 137.32);
     --color-o50: oklch(0.5749 0.1393 137.32);
     --color-o30: oklch(0.3749 0.1393 137.32);
+    /* site color palette */
+    --main-color: #FF8427;
+    --secondary-color: #FFC800;
+    --dark: #1E212B;
+}
+
+/* interactive color changes */
+.button {
+  background-color: #2563eb;
+}
+.button:hover {
+  background-color: color-mix(in oklch, #2563eb 85%, black);
 }
 
 
